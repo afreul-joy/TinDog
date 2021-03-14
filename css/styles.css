@@ -1,0 +1,150 @@
+*{
+    text-align: center;
+}
+.container {
+    padding: 3% 15%;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation-section */
+#navbar-brand { 
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav{
+    padding-bottom: 3rem;
+    margin-bottom: 3.3rem;
+}
+.nav-titile{
+    line-height: 1.5;
+    font-size: 3rem; 
+    text-align: left;
+}
+#nav-link{
+    padding: 0 1.5rem ;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+}
+#bttn{
+    margin:2rem 0.2rem  ;
+}
+#img-home{
+    width: 60%;
+    transform: rotate(25deg);
+  position: absolute;
+}
+
+@media screen and (max-width: 992px) {
+  #img-home{
+ transform: rotate(0deg);
+  position: static;
+  }
+  .nav-titile {
+   font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+}
+
+/* features-section */
+#features {
+     padding: 7% 15%;
+     background-color: #fff;
+    position: relative; 
+}
+.features-text {
+     font-size:2.5rem;
+}
+.icon {
+    color:#ef8172; 
+    margin-bottom: 8%;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+
+}
+.testtimonials-text{
+    font-size: 2.4rem;
+    padding-bottom: 5%;
+}
+/* press */
+#press {
+        background-color: #ef8172;
+        padding-bottom: 5%;
+      
+}
+.carousel-item{
+    padding: 5% 15%;
+} 
+
+
+/* Pricing */
+.pricing-text{
+    font-size: 2.4rem;
+    padding-bottom: 5%;
+}        
+.demo,h4{padding:30px 0}
+.pricingTable,h4{text-align:center}
+body{padding:0;margin:0}
+.demo{background:#B2B2B2}
+h4{color:#444}
+.pricingTable{background:#fff;border-radius:10px;overflow:hidden;position:relative;transition:all .3s ease 0s}
+.pricingTable:hover{box-shadow:0 0 5px rgba(0,0,0,.8) inset,0 0 10px rgba(0,0,0,.8)}
+.pricingTable svg{display:block;margin-left:-1px}
+.pricingTable .pricing-content{padding:50px 0 30px;position:relative}
+.pricingTable .title{font-size:35px;font-weight:600;color:#ae003d;text-transform:uppercase;margin:0 0 10px}
+.pricingTable .pricing-content ul{padding:0;margin:0 0 30px;list-style:none}
+.pricingTable .pricing-content ul li{font-size:18px;color:rgba(0,0,0,.3);line-height:40px;text-transform:capitalize}
+.pricingTable .pricingTable-signup{display:inline-block;padding:8px 50px;background:#ae003d;border-radius:20px;font-size:20px;font-weight:600;color:#fff;text-transform:uppercase;position:relative;transition:all .3s ease 0s}
+.pricingTable:hover .pricingTable-signup{box-shadow:0 0 10px #ae003d}
+.pricingTable .pricingTable-signup:hover{color:#ae003d;background:#fff;box-shadow:0 0 10px #ae003d,0 0 10px #000 inset}
+.pricingTable.blue .title{color:#005c99}
+.pricingTable.blue .pricingTable-signup{background:#005c99}
+.pricingTable.blue:hover .pricingTable-signup{box-shadow:0 0 10px #005c99}
+.pricingTable.blue .pricingTable-signup:hover{color:#005c99;background:#fff;box-shadow:0 0 10px #005c99,0 0 10px #000 inset}
+.pricingTable.red .title{color:#db2c29}
+.pricingTable.red .pricingTable-signup{background:#db2c29}
+.pricingTable.red:hover .pricingTable-signup{box-shadow:0 0 10px #db2c29}
+.pricingTable.red .pricingTable-signup:hover{color:#db2c29;background:#fff;box-shadow:0 0 10px #db2c29,0 0 10px #000 inset}
+@media only screen and (max-width:990px){.pricingTable{margin-bottom:30px}
+}
+
+/* cta */
+#cta{
+    background-color:#ff4c68;
+    padding: 11% 30%;
+}
+.cta-text{
+    font-size:2.5rem;
+}
+
+/* footer */
+
+#footer {
+    padding: 5%; 
+}
+
+.ft {
+    padding: 2% 1%;
+}
+.ft:hover {
+    color: #ff4c68;
+}
